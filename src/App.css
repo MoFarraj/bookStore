@@ -1,0 +1,120 @@
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  background:black;
+}
+
+.fetch-erorr{
+  color:white;
+  background:rgb(255, 123, 0);
+  width:100%;
+  padding: 15px 0 15px 20px;
+}
+
+.header h2{
+  color: white;
+}
+
+.header button{
+  height: 40px;
+  padding: 0 20px;
+  align-self: center;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+
+.containar{
+  width: 80%;
+  margin:auto
+}
+
+.books{
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-form {
+  margin:50px 0;
+  text-align: center;
+}
+
+.add-form input{
+  display:block;
+  margin: 20px auto;
+  width:300px;
+  height:35px;
+  padding-left: 10px;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.add-form button{
+  width:100px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.list-books , .book-details{
+  width:42%;
+  background:#609d9f1e;
+  padding: 0 30px;
+}
+
+
+.list-item{
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+  border:1px solid rgba(128, 128, 128, 0.753);
+  padding: 0 10px;
+}
+
+.list-item div{
+  align-self: center;
+}
+
+.list-item div button{
+  margin: 0 2px;
+  padding: 0 15px;
+  height: 25px;
+  color: white;
+  border:none;
+  outline: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.list-item div button:first-child{
+  background:cadetblue;
+}
+
+.list-item div button:last-child{
+  background:red;
+}
+
+.book-details{
+  height:100%;
+  padding-bottom: 20px;
+}
+
+.book-details p{
+  color: black;
+  height:auto;
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
+
+.book-details button{
+  margin: 0 2px;
+  padding: 0 15px;
+  height: 25px;
+  color: white;
+  border:none;
+  outline: none;
+  border-radius: 7px;
+  cursor: pointer;
+  background:red;
+}
